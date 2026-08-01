@@ -1,0 +1,15 @@
+{"id": "2cbd3c29-9af9-4947-a031-c13f66a7146f", "event_id": 474, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "35cf4917-a3b6-43ea-a5cf-671d0b02f044", "event_id": 474, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "3df47799-bc63-44ce-9081-6d75eff74e23", "event_id": 474, "instance_present": true, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "42810f62-047a-4e15-891e-f60d2447ef50", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "481864c6-ac8d-4e6e-8e3b-7fc99027b4f9", "event_id": 474, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "83ac3111-e6ec-4995-8b2b-9da0fd68961b", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "865a9084-a8dc-40d0-b1e9-244c0b224f74", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "a6f01f6d-b0cd-47f7-9eeb-2196213e3385", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "b70fb73a-a61b-4e8f-a4a9-39457e4dd3b0", "event_id": 474, "instance_present": false, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "bfab70f7-7af1-45d3-8c6b-6b67dbbac920", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "dd49e0ee-5781-4829-8622-a9b2f93809e9", "event_id": 474, "instance_present": false, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "e76e3bb2-2a94-4dba-b219-c5e922a8ea9f", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "f5bc240a-0c0f-4c10-9a6e-ac6df48a5dbe", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "f614734d-4af8-4fa2-862d-5b0e24c0bbef", "event_id": 474, "instance_present": false, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "fa04be31-14f9-4589-a0ae-ff6747af280e", "event_id": 474, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}

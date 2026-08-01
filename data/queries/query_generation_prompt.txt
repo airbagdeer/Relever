@@ -1,0 +1,196 @@
+You are generating high-quality abstract binary relation instances for a structured relation dataset.
+
+The model receives ONLY the output schema.
+You must invent every field while following all rules and learning from the examples below.
+
+============================================================
+FEW-SHOT EXAMPLES (FOLLOW THESE PATTERNS)
+============================================================
+
+Example 1:
+{{
+  "sentence": "Companies headquartered in Silicon Valley.",
+  "relation": "headquartered_in",
+  "constant_entity": "Silicon Valley",
+  "abstract_entity_type": "Companies",
+  "abstract_entity_instances": ["Google", "Apple", "Netflix"],
+  "instantiated_sentences": [
+    "Google is headquartered in Silicon Valley.",
+    "Apple is headquartered in Silicon Valley.",
+    "Netflix is headquartered in Silicon Valley."
+  ]
+}}
+
+Example 2:
+{{
+  "sentence": "Tech firms competing in the smartphone market.",
+  "relation": "competes_in",
+  "constant_entity": "the smartphone market",
+  "abstract_entity_type": "Tech Firms",
+  "abstract_entity_instances": ["Samsung", "Apple", "Xiaomi", "Google"],
+  "instantiated_sentences": [
+    "Samsung competes in the smartphone market.",
+    "Apple competes in the smartphone market.",
+    "Xiaomi competes in the smartphone market.",
+    "Google competes in the smartphone market."
+  ]
+}}
+
+Example 3:
+{{
+  "sentence": "Football clubs competing in the UEFA Champions League.",
+  "relation": "competes_in",
+  "constant_entity": "the UEFA Champions League",
+  "abstract_entity_type": "Football Clubs",
+  "abstract_entity_instances": ["Real Madrid", "Manchester City", "Bayern Munich", "Paris Saint-Germain"],
+  "instantiated_sentences": [
+    "Real Madrid competes in the UEFA Champions League.",
+    "Manchester City competes in the UEFA Champions League.",
+    "Bayern Munich competes in the UEFA Champions League.",
+    "Paris Saint-Germain competes in the UEFA Champions League."
+  ]
+}}
+
+Example 4:
+{{
+  "sentence": "Directors whose films premiered at the Cannes Film Festival.",
+  "relation": "premiered_at",
+  "constant_entity": "the Cannes Film Festival",
+  "abstract_entity_type": "Film Directors",
+  "abstract_entity_instances": ["Wes Anderson", "Pedro Almodóvar", "Park Chan-wook"],
+  "instantiated_sentences": [
+    "Wes Anderson premiered films at the Cannes Film Festival.",
+    "Pedro Almodóvar premiered films at the Cannes Film Festival.",
+    "Park Chan-wook premiered films at the Cannes Film Festival."
+  ]
+}}
+
+Example 5:
+{{
+  "sentence": "Political parties contesting elections in Brazil.",
+  "relation": "contests_elections_in",
+  "constant_entity": "Brazil",
+  "abstract_entity_type": "Political Parties",
+  "abstract_entity_instances": ["Workers' Party", "Liberal Party", "Brazilian Democratic Movement"],
+  "instantiated_sentences": [
+    "The Workers' Party contests elections in Brazil.",
+    "The Liberal Party contests elections in Brazil.",
+    "The Brazilian Democratic Movement contests elections in Brazil."
+  ]
+}}
+
+Example 6:
+{{
+  "sentence": "Monastic orders operating in Ireland.",
+  "relation": "operates_in",
+  "constant_entity": "Ireland",
+  "abstract_entity_type": "Monastic Orders",
+  "abstract_entity_instances": ["the Benedictines", "the Cistercians", "the Dominicans"],
+  "instantiated_sentences": [
+    "The Benedictines operate in Ireland.",
+    "The Cistercians operate in Ireland.",
+    "The Dominicans operate in Ireland."
+  ]
+}}
+
+Example 7:
+{{
+  "sentence": "Law firms litigating cases before the International Court of Justice.",
+  "relation": "litigates_before",
+  "constant_entity": "the International Court of Justice",
+  "abstract_entity_type": "Law Firms",
+  "abstract_entity_instances": ["Foley Hoag", "Matrix Chambers", "Volterra Fietta"],
+  "instantiated_sentences": [
+    "Foley Hoag litigates cases before the International Court of Justice.",
+    "Matrix Chambers litigates cases before the International Court of Justice.",
+    "Volterra Fietta litigates cases before the International Court of Justice."
+  ]
+}}
+
+Example 8:
+{{
+  "sentence": "Airlines operating scheduled routes to Central Asia.",
+  "relation": "operates_routes_to",
+  "constant_entity": "Central Asia",
+  "abstract_entity_type": "Airlines",
+  "abstract_entity_instances": ["Turkish Airlines", "Emirates", "Air Astana", "China Southern"],
+  "instantiated_sentences": [
+    "Turkish Airlines operates scheduled routes to Central Asia.",
+    "Emirates operates scheduled routes to Central Asia.",
+    "Air Astana operates scheduled routes to Central Asia.",
+    "China Southern operates scheduled routes to Central Asia."
+  ]
+}}
+
+============================================================
+CRITICAL CONSTRAINT: SEMANTIC REUSABILITY
+============================================================
+
+The entity pair structure `(y, E1)` must be such that the entities could
+reasonably appear together in *multiple different real-world relations*.
+
+Therefore:
+- ACCEPTABLE relations: “located_in”, “operates_in”, “exports_to”, “based_in”,
+  “serves_in”, “partnered_with”, “collaborates_with”, “competes_in”,
+  “participates_in”, “contributes_to”, “trades_with”, etc.
+- UNACCEPTABLE relations: “authored_by”, “created_by”, “invented_by”, “designed_by”,
+  “discovered_by”, “born_in”, or any one-to-one factual relations.
+
+Avoid relations that permanently bind two entities together in only one context.
+
+============================================================
+YOUR TASK
+============================================================
+
+Generate a coherent and semantically reusable relation instance, consisting of:
+- A binary relation name **relation (R)**
+- A constant entity **constant_entity (E1)**
+- An abstract entity type **abstract_entity_type (T)**
+- A list of several entity instances **abstract_entity_instances (y ∈ T)**
+- ONE natural-language sentence stating the relation between T and E1
+- A list of instantiated sentences, one per entity instance
+
+Your output must be meaningful, realistic, and internally consistent.
+
+============================================================
+CONSTRUCTION RULES
+============================================================
+
+1. **relation (R)**
+   - Must be a short, machine-friendly name: snake_case, lowercase.
+
+2. **constant_entity (E1)**
+   - Must be a real or realistic concept, industry, market, organization, region, agreement, technology, field, sector, country, etc.
+
+3. **abstract_entity_type (T)**
+   - Should be a broad, well-defined class such as:
+     “Companies”, “Countries”, “Organizations”, “Researchers”, “Airlines”, “Industries”,
+     “Tech Firms”, “Banks”, “Automakers”, etc.
+
+4. **abstract_entity_instances (y ∈ T)**
+   - Provide 3–8 realistic instances.
+   - Must plausibly stand in the relation R with E1.
+
+5. **sentence**
+   - ONE single grammatical sentence.
+   - MUST explicitly mention both T and E1 in any order.
+   - MUST NOT include any entity instances.
+   - SHORT and factual.
+
+6. **instantiated_sentences**
+   - One sentence per entity instance y.
+   - MUST apply the relation R between y and E1.
+   - MUST be concise and factual.
+   - MUST NOT include any other instances.
+
+{domain_hint}
+============================================================
+OUTPUT FORMAT (ONLY THIS JSON)
+============================================================
+
+{format_instructions}
+
+============================================================
+BEGIN (GENERATE {amount})
+============================================================
+

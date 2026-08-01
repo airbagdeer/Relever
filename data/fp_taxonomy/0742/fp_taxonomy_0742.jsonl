@@ -1,0 +1,13 @@
+{"id": "070e732b-20ce-40e2-8569-ef4b92728339", "event_id": 742, "instance_present": false, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "0adf4343-8b41-408a-bb93-ed384f1b7ee7", "event_id": 742, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "24ac19e9-19ae-4d60-8da5-563139473848", "event_id": 742, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "4caaaee5-9252-4394-9db0-2aa1cc075550", "event_id": 742, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "5a232bee-023a-4bb5-855c-e48ec68d63de", "event_id": 742, "instance_present": false, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "63612639-932d-4bd3-bb37-a35545567841", "event_id": 742, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "64980342-b201-4f0b-b1c9-97544db6a872", "event_id": 742, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "7ff8195c-9ca0-486f-b08d-68878fd72c52", "event_id": 742, "instance_present": true, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "88f86b92-4cb4-47ab-aaa4-973dab960ed0", "event_id": 742, "instance_present": false, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "892b2d71-e412-45e7-8d58-01b73a27f0b8", "event_id": 742, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "bf9c2e55-9af5-44a4-9498-26a4b0f5edf2", "event_id": 742, "instance_present": false, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "f6832839-fad0-4d35-b06d-23a0305a3dbc", "event_id": 742, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "fe0382c3-3369-450d-9d10-e2c9a289d0d3", "event_id": 742, "instance_present": false, "relation_present": false, "constant_present": false, "prompt_version": "v5"}

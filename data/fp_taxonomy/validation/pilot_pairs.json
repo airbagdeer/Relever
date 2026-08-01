@@ -1,0 +1,2778 @@
+[
+  {
+    "event_id": 0,
+    "id": "f26e87d8-3b1c-4000-8397-f8f729fc9336",
+    "systems": {
+      "F2LLM-v2-4B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 66,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 3,
+    "id": "3e3e4efd-2787-4092-954a-619616d7d533",
+    "systems": {
+      "QZhou-Embedding": 5
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 127,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 10,
+    "id": "c86c4383-0cb1-4b23-aa9e-0e5ead324628",
+    "systems": {
+      "F2LLM-v2-8B": 10,
+      "Octen-Embedding-8B": 4,
+      "MoD-Embedding": 6
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 650,
+    "r_bucket": "500+",
+    "human": true
+  },
+  {
+    "event_id": 18,
+    "id": "6af00a99-e9ed-47c3-8305-f769f7f5e751",
+    "systems": {
+      "F2LLM-v2-14B": 5
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 56,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 21,
+    "id": "6bb31bd7-662f-472f-a384-b991490cd910",
+    "systems": {
+      "jina-embeddings-v4-late": 5,
+      "colbert-v2": 9
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 552,
+    "r_bucket": "500+",
+    "human": false
+  },
+  {
+    "event_id": 37,
+    "id": "8cdd59a0-c86a-464b-a9af-cf2d23897e57",
+    "systems": {
+      "jina-embeddings-v5-text-small": 5
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 80,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 39,
+    "id": "9ee1f378-1261-4579-8a0a-2ab1f604cf8f",
+    "systems": {
+      "jina-embeddings-v4-late": 2
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 8,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 50,
+    "id": "c75dddf6-68ca-4210-8404-e754e41cbd05",
+    "systems": {
+      "colbert-v2": 4
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 201,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 52,
+    "id": "08dd73d7-80d3-4e9b-b436-1851824af1d7",
+    "systems": {
+      "colbert-v2": 2
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 94,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 58,
+    "id": "53237bc9-5cb0-4b4c-98d8-a634ab23d37b",
+    "systems": {
+      "F2LLM-v2-8B": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 159,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 58,
+    "id": "9de2f66e-3330-4f4c-91f8-b3aaa5c7a1c3",
+    "systems": {
+      "jina-embeddings-v4-late": 10
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 159,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 62,
+    "id": "b533ab28-74d7-418d-b6dd-c54bf912a965",
+    "systems": {
+      "F2LLM-v2-4B": 5,
+      "F2LLM-v2-14B": 7,
+      "MoD-Embedding": 10
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 401,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 63,
+    "id": "80e9c03c-b192-4f2d-94e0-90e29821451a",
+    "systems": {
+      "F2LLM-v2-4B": 8,
+      "Octen-Embedding-0.6B": 6
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 65,
+    "id": "29985cc4-dcce-4c6c-acd4-fad32e085eb0",
+    "systems": {
+      "F2LLM-v2-14B": 7,
+      "Octen-Embedding-0.6B": 3,
+      "Octen-Embedding-4B": 6
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 163,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 77,
+    "id": "9e69ee09-c7ad-4f6e-8761-ac7844a9d1f9",
+    "systems": {
+      "F2LLM-v2-4B": 10,
+      "jasper_en_vision_language_v1": 9
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 8,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 83,
+    "id": "df66eac7-5f43-496a-9650-ee137355370e",
+    "systems": {
+      "colbert-v2": 8
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 176,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 96,
+    "id": "923a8cbf-ccc5-4105-b943-fc748953fa93",
+    "systems": {
+      "jina-embeddings-v5-text-small": 1
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 76,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 100,
+    "id": "8f0afacb-fda3-4764-9a22-413d1e56d61e",
+    "systems": {
+      "F2LLM-v2-4B": 10,
+      "Octen-Embedding-4B": 9,
+      "Qwen3-Embedding-4B": 5,
+      "Qwen3-Embedding-8B": 4,
+      "jina-embeddings-v5-text-small": 6,
+      "jina-embeddings-v5-omni-small": 5,
+      "Jasper-Token-Compression-600M": 10,
+      "jasper_en_vision_language_v1": 5,
+      "MoD-Embedding": 5,
+      "ICT-TIME-and-Querit-embedding-v1": 5
+    },
+    "n_systems": 10,
+    "li": false,
+    "R_q": 260,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 102,
+    "id": "1f4c2c49-54d9-4f3f-a2ef-40e92ed04ff5",
+    "systems": {
+      "QZhou-Embedding": 2,
+      "jina-embeddings-v4-late": 9
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 120,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 108,
+    "id": "c4d3c8f6-54fa-4cc5-9542-ac6158df8549",
+    "systems": {
+      "F2LLM-v2-4B": 5,
+      "F2LLM-v2-8B": 6,
+      "F2LLM-v2-14B": 4,
+      "Octen-Embedding-8B": 7,
+      "QZhou-Embedding": 9,
+      "LGAI-Embedding-Preview": 9
+    },
+    "n_systems": 6,
+    "li": false,
+    "R_q": 61,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 110,
+    "id": "37292958-d858-4417-bc1f-005a9fbd54f4",
+    "systems": {
+      "jina-embeddings-v4-late": 8
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 727,
+    "r_bucket": "500+",
+    "human": true
+  },
+  {
+    "event_id": 118,
+    "id": "92372fc9-df5a-42a7-ad23-300f7475ee71",
+    "systems": {
+      "jina-embeddings-v5-text-small": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 6,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 136,
+    "id": "eb000a76-97ed-4edf-bd4d-56d90267f1d5",
+    "systems": {
+      "jina-embeddings-v4-late": 6,
+      "colbert-v2": 7
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 55,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 137,
+    "id": "6de2287e-a9d6-45cc-b9b6-19e04bf2ff41",
+    "systems": {
+      "Qwen3-Embedding-8B": 10,
+      "jina-embeddings-v5-omni-small": 8,
+      "ICT-TIME-and-Querit-embedding-v1": 9
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 65,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 137,
+    "id": "fd205525-2979-4cea-a4a3-4e400619968d",
+    "systems": {
+      "Octen-Embedding-4B": 8,
+      "Octen-Embedding-8B": 3
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 65,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 152,
+    "id": "c5346ff6-4c71-4797-ad6b-8be9946f692b",
+    "systems": {
+      "F2LLM-v2-14B": 10,
+      "Octen-Embedding-4B": 9,
+      "Qwen3-Embedding-4B": 4,
+      "QZhou-Embedding": 9,
+      "MoD-Embedding": 9,
+      "ICT-TIME-and-Querit-embedding-v1": 3
+    },
+    "n_systems": 6,
+    "li": false,
+    "R_q": 77,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 156,
+    "id": "64718fc9-574d-4c89-84d3-178e4d98a8d4",
+    "systems": {
+      "jina-embeddings-v5-text-small": 9
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 184,
+    "id": "7d051f64-9328-4481-b37e-e4f674f81059",
+    "systems": {
+      "jina-embeddings-v5-text-small": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 10,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 190,
+    "id": "9ec44efd-778d-4f87-81b2-5b51ca17e51e",
+    "systems": {
+      "LGAI-Embedding-Preview": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 445,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 192,
+    "id": "eb856ced-40d1-4d43-ae32-4a93351aeac6",
+    "systems": {
+      "jina-embeddings-v5-text-small": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 9,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 195,
+    "id": "5abfbcb2-684c-4960-8603-7745109674a0",
+    "systems": {
+      "F2LLM-v2-14B": 9,
+      "Octen-Embedding-0.6B": 7,
+      "Jasper-Token-Compression-600M": 4
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 304,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 199,
+    "id": "16971421-821b-4bec-a35d-4725374eac8b",
+    "systems": {
+      "F2LLM-v2-4B": 9,
+      "Octen-Embedding-4B": 10,
+      "Octen-Embedding-8B": 7,
+      "LGAI-Embedding-Preview": 5,
+      "MoD-Embedding": 9
+    },
+    "n_systems": 5,
+    "li": false,
+    "R_q": 142,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 201,
+    "id": "5120462a-2515-4014-8fe8-fcbb223d9aa3",
+    "systems": {
+      "Qwen3-Embedding-8B": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 27,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 203,
+    "id": "8f75412e-9655-4e15-b30a-536ffe459dbb",
+    "systems": {
+      "F2LLM-v2-8B": 9
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 37,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 211,
+    "id": "94d00a0e-2402-4cb6-9ebc-2441628f16a7",
+    "systems": {
+      "ICT-TIME-and-Querit-embedding-v1": 2
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 30,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 215,
+    "id": "37f25c89-a87f-4739-a246-b42a9fe58b71",
+    "systems": {
+      "F2LLM-v2-4B": 5,
+      "Jasper-Token-Compression-600M": 8
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 4,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 225,
+    "id": "4627953c-447b-470d-a8ff-3c936305c53b",
+    "systems": {
+      "Octen-Embedding-0.6B": 10,
+      "Octen-Embedding-4B": 4,
+      "Octen-Embedding-8B": 8
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 248,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 228,
+    "id": "99b34fdf-fc15-4906-9c9b-21865f994a8e",
+    "systems": {
+      "Octen-Embedding-4B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 100,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 233,
+    "id": "9084f98f-7e67-4f3f-bb61-a4770dce57b9",
+    "systems": {
+      "jina-embeddings-v4-late": 1
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 81,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 234,
+    "id": "1267ab98-5917-48a5-809d-3242a96fe22f",
+    "systems": {
+      "jina-embeddings-v4-late": 10
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 36,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 238,
+    "id": "cd96208d-208c-4d74-a4ab-8ec8bf9e7cbc",
+    "systems": {
+      "F2LLM-v2-4B": 9,
+      "F2LLM-v2-8B": 8,
+      "Octen-Embedding-4B": 4,
+      "Octen-Embedding-8B": 8,
+      "Qwen3-Embedding-4B": 3,
+      "Qwen3-Embedding-8B": 5,
+      "Jasper-Token-Compression-600M": 4,
+      "jasper_en_vision_language_v1": 8,
+      "LGAI-Embedding-Preview": 3,
+      "MoD-Embedding": 3,
+      "jina-embeddings-v4-late": 5
+    },
+    "n_systems": 11,
+    "li": true,
+    "R_q": 24,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 251,
+    "id": "162592fe-cb26-49eb-803c-98b3f3bb5dbb",
+    "systems": {
+      "jina-embeddings-v5-text-small": 5
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 56,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 254,
+    "id": "6e255714-b4eb-4cf9-82a4-1faa55b6bd07",
+    "systems": {
+      "jina-embeddings-v5-omni-small": 7,
+      "Jasper-Token-Compression-600M": 10
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 118,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 257,
+    "id": "74e60716-e999-4a2c-9af0-24897e4e9b39",
+    "systems": {
+      "jina-embeddings-v5-omni-small": 9,
+      "colbert-v2": 2
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 94,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 260,
+    "id": "f957775f-a450-414a-b4e3-0d28842d0de6",
+    "systems": {
+      "Octen-Embedding-4B": 5,
+      "Qwen3-Embedding-4B": 3,
+      "Qwen3-Embedding-8B": 1,
+      "jina-embeddings-v5-omni-small": 4,
+      "jasper_en_vision_language_v1": 3,
+      "MoD-Embedding": 9
+    },
+    "n_systems": 6,
+    "li": false,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 260,
+    "id": "fcf43e34-52f3-41ad-939b-aeb0f1f13b7f",
+    "systems": {
+      "jina-embeddings-v4-late": 3,
+      "colbert-v2": 8
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 264,
+    "id": "3ff02658-ae1e-486b-97ee-109487830374",
+    "systems": {
+      "jina-embeddings-v5-text-small": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 161,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 267,
+    "id": "32ff9d18-ee92-42ee-bea8-c0c26675fb9d",
+    "systems": {
+      "jina-embeddings-v5-text-small": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 1331,
+    "r_bucket": "500+",
+    "human": true
+  },
+  {
+    "event_id": 270,
+    "id": "5424c568-b38f-42b4-a5b3-572df065992f",
+    "systems": {
+      "jina-embeddings-v5-text-small": 2
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 174,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 271,
+    "id": "5534c388-9d1c-460e-bfb4-b888436fa799",
+    "systems": {
+      "F2LLM-v2-4B": 5,
+      "F2LLM-v2-8B": 6,
+      "jina-embeddings-v5-omni-small": 7,
+      "Jasper-Token-Compression-600M": 3,
+      "jasper_en_vision_language_v1": 9,
+      "MoD-Embedding": 7,
+      "colbert-v2": 4
+    },
+    "n_systems": 7,
+    "li": true,
+    "R_q": 47,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 277,
+    "id": "84f54171-99f6-4eb4-8af5-c348502ab95f",
+    "systems": {
+      "Qwen3-Embedding-4B": 9
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 28,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 278,
+    "id": "7291bcca-9f0e-4fd4-b52b-c92d47b53d26",
+    "systems": {
+      "F2LLM-v2-8B": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 96,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 280,
+    "id": "016cb8c2-e85c-4224-bc23-ad84423efc35",
+    "systems": {
+      "jina-embeddings-v5-text-small": 5
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 51,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 282,
+    "id": "20c8482a-06fa-4cfc-accd-5c77798e504b",
+    "systems": {
+      "Jasper-Token-Compression-600M": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 58,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 284,
+    "id": "43e77922-db28-4516-bb81-8fa7b206d6c7",
+    "systems": {
+      "LGAI-Embedding-Preview": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 861,
+    "r_bucket": "500+",
+    "human": false
+  },
+  {
+    "event_id": 288,
+    "id": "1963d0f2-98d6-4385-9221-b44a08b0f0f0",
+    "systems": {
+      "Octen-Embedding-4B": 8,
+      "Qwen3-Embedding-4B": 3,
+      "MoD-Embedding": 8
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 154,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 289,
+    "id": "6f7bc28f-a974-41cb-ac5c-f2dee3eda137",
+    "systems": {
+      "jina-embeddings-v4-late": 8
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 58,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 291,
+    "id": "f51b9dea-dee6-43e3-aca5-7bc59349b028",
+    "systems": {
+      "jina-embeddings-v5-text-small": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 150,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 292,
+    "id": "85f0b555-342a-4516-9056-a2277f7d06c7",
+    "systems": {
+      "F2LLM-v2-4B": 5,
+      "F2LLM-v2-8B": 4,
+      "F2LLM-v2-14B": 3,
+      "Octen-Embedding-0.6B": 9,
+      "jasper_en_vision_language_v1": 6,
+      "QZhou-Embedding": 9,
+      "LGAI-Embedding-Preview": 8
+    },
+    "n_systems": 7,
+    "li": false,
+    "R_q": 34,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 292,
+    "id": "fbe05c4e-e72a-4323-bc7e-fd0494101abc",
+    "systems": {
+      "F2LLM-v2-4B": 3,
+      "F2LLM-v2-8B": 2,
+      "F2LLM-v2-14B": 4,
+      "Octen-Embedding-0.6B": 3,
+      "Octen-Embedding-4B": 2,
+      "Octen-Embedding-8B": 1,
+      "Qwen3-Embedding-4B": 5,
+      "Qwen3-Embedding-8B": 7,
+      "jina-embeddings-v5-omni-small": 9,
+      "Jasper-Token-Compression-600M": 1,
+      "jasper_en_vision_language_v1": 3,
+      "QZhou-Embedding": 10,
+      "MoD-Embedding": 3,
+      "ICT-TIME-and-Querit-embedding-v1": 1,
+      "colbert-v2": 7
+    },
+    "n_systems": 15,
+    "li": true,
+    "R_q": 34,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 299,
+    "id": "a764ded9-922a-4cc0-ac7e-42e1acdb6f3f",
+    "systems": {
+      "Octen-Embedding-0.6B": 3,
+      "Jasper-Token-Compression-600M": 6,
+      "QZhou-Embedding": 6
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 57,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 300,
+    "id": "a581769b-3449-4e3e-be5a-7b71584990f7",
+    "systems": {
+      "Qwen3-Embedding-4B": 9,
+      "Qwen3-Embedding-8B": 7,
+      "QZhou-Embedding": 10,
+      "ICT-TIME-and-Querit-embedding-v1": 5,
+      "colbert-v2": 7
+    },
+    "n_systems": 5,
+    "li": true,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 306,
+    "id": "34b49b30-d475-4ab4-9b63-f57876905cd4",
+    "systems": {
+      "jina-embeddings-v4-late": 10
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 13,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 320,
+    "id": "cb1b9b6e-4999-4f90-a856-7ef7bdc8c4f4",
+    "systems": {
+      "F2LLM-v2-4B": 2,
+      "F2LLM-v2-8B": 4,
+      "F2LLM-v2-14B": 2,
+      "Octen-Embedding-0.6B": 9,
+      "Qwen3-Embedding-4B": 5,
+      "Jasper-Token-Compression-600M": 7,
+      "MoD-Embedding": 10,
+      "ICT-TIME-and-Querit-embedding-v1": 4
+    },
+    "n_systems": 8,
+    "li": false,
+    "R_q": 284,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 326,
+    "id": "928b9f8a-12b4-48b0-b4b9-dbcac9709f4e",
+    "systems": {
+      "jina-embeddings-v5-text-small": 1
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 176,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 326,
+    "id": "a8d6cefb-ab91-4e24-b16a-8f2d1fc0fc9b",
+    "systems": {
+      "F2LLM-v2-4B": 7,
+      "Octen-Embedding-0.6B": 1,
+      "Octen-Embedding-4B": 6,
+      "Octen-Embedding-8B": 7,
+      "Qwen3-Embedding-4B": 1,
+      "Qwen3-Embedding-8B": 1,
+      "jina-embeddings-v5-omni-small": 2,
+      "Jasper-Token-Compression-600M": 2,
+      "jasper_en_vision_language_v1": 7,
+      "MoD-Embedding": 1,
+      "ICT-TIME-and-Querit-embedding-v1": 6
+    },
+    "n_systems": 11,
+    "li": false,
+    "R_q": 176,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 327,
+    "id": "f3668345-a122-4836-ac5f-40d0ae769d04",
+    "systems": {
+      "F2LLM-v2-4B": 4,
+      "F2LLM-v2-8B": 3,
+      "F2LLM-v2-14B": 6,
+      "Octen-Embedding-8B": 9,
+      "Jasper-Token-Compression-600M": 10,
+      "QZhou-Embedding": 3,
+      "LGAI-Embedding-Preview": 6
+    },
+    "n_systems": 7,
+    "li": false,
+    "R_q": 179,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 329,
+    "id": "52c7e1c2-4dee-450c-a83a-5fb958a2571a",
+    "systems": {
+      "Jasper-Token-Compression-600M": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 8,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 330,
+    "id": "af2a64a4-86c2-4662-a31a-6e9ff24d0d9a",
+    "systems": {
+      "jina-embeddings-v5-text-small": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 45,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 333,
+    "id": "ccdcda99-968c-48de-a4fb-7afe80140167",
+    "systems": {
+      "jina-embeddings-v5-text-small": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 61,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 344,
+    "id": "2f260993-8e95-4c7f-8a73-0bab0f171497",
+    "systems": {
+      "jina-embeddings-v5-text-small": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 205,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 345,
+    "id": "ae64a2c8-0f03-4423-8045-0da598ac35ae",
+    "systems": {
+      "jina-embeddings-v5-text-small": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 282,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 346,
+    "id": "4df15cad-4048-4570-8761-bdf4b90935fe",
+    "systems": {
+      "Octen-Embedding-0.6B": 3,
+      "Qwen3-Embedding-8B": 9,
+      "colbert-v2": 3
+    },
+    "n_systems": 3,
+    "li": true,
+    "R_q": 13,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 348,
+    "id": "8e7546ee-ad89-4295-ae42-ffc182cf79fa",
+    "systems": {
+      "F2LLM-v2-4B": 6,
+      "Octen-Embedding-0.6B": 8,
+      "jina-embeddings-v5-text-small": 4,
+      "Jasper-Token-Compression-600M": 1,
+      "ICT-TIME-and-Querit-embedding-v1": 7,
+      "jina-embeddings-v4-late": 6
+    },
+    "n_systems": 6,
+    "li": true,
+    "R_q": 93,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 381,
+    "id": "8489fc76-37c9-4df9-829c-af37ba19b3f7",
+    "systems": {
+      "QZhou-Embedding": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 14,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 392,
+    "id": "65ce7c33-f904-440a-b2a2-07f8dcfee088",
+    "systems": {
+      "QZhou-Embedding": 1
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 4,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 392,
+    "id": "cc4c05fc-356e-4e40-b163-aa2117cfd26d",
+    "systems": {
+      "QZhou-Embedding": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 4,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 398,
+    "id": "6b399bef-a65c-4cba-8aae-dea98e67eadb",
+    "systems": {
+      "Jasper-Token-Compression-600M": 8,
+      "QZhou-Embedding": 10
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 77,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 400,
+    "id": "36290e23-e761-41d6-aef6-9ba471c4fdc3",
+    "systems": {
+      "Qwen3-Embedding-4B": 9,
+      "MoD-Embedding": 8
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 13,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 402,
+    "id": "24010688-d7b0-4dde-83f6-59c9f3577412",
+    "systems": {
+      "F2LLM-v2-4B": 2,
+      "F2LLM-v2-8B": 3,
+      "F2LLM-v2-14B": 2,
+      "Octen-Embedding-0.6B": 4,
+      "Octen-Embedding-4B": 1,
+      "Octen-Embedding-8B": 2,
+      "Qwen3-Embedding-4B": 1,
+      "Qwen3-Embedding-8B": 1,
+      "Jasper-Token-Compression-600M": 4,
+      "jasper_en_vision_language_v1": 1,
+      "QZhou-Embedding": 3,
+      "LGAI-Embedding-Preview": 1,
+      "MoD-Embedding": 2,
+      "ICT-TIME-and-Querit-embedding-v1": 1
+    },
+    "n_systems": 14,
+    "li": false,
+    "R_q": 14,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 408,
+    "id": "0f2fc553-4ee7-44a7-951b-a361a0f22548",
+    "systems": {
+      "F2LLM-v2-4B": 9,
+      "F2LLM-v2-8B": 10,
+      "F2LLM-v2-14B": 8,
+      "jasper_en_vision_language_v1": 2,
+      "LGAI-Embedding-Preview": 3
+    },
+    "n_systems": 5,
+    "li": false,
+    "R_q": 44,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 408,
+    "id": "b3d3706a-530f-4169-bd96-e2be176a2f87",
+    "systems": {
+      "jina-embeddings-v5-text-small": 3
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 44,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 409,
+    "id": "a47ba258-69b8-4f1c-87d7-f45af4b9092a",
+    "systems": {
+      "Octen-Embedding-0.6B": 1,
+      "Octen-Embedding-4B": 1,
+      "Octen-Embedding-8B": 1,
+      "Qwen3-Embedding-4B": 1,
+      "Qwen3-Embedding-8B": 1,
+      "jina-embeddings-v5-omni-small": 1,
+      "Jasper-Token-Compression-600M": 1,
+      "jasper_en_vision_language_v1": 1,
+      "LGAI-Embedding-Preview": 9,
+      "MoD-Embedding": 1,
+      "ICT-TIME-and-Querit-embedding-v1": 1,
+      "jina-embeddings-v4-late": 7,
+      "colbert-v2": 1
+    },
+    "n_systems": 13,
+    "li": true,
+    "R_q": 40,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 414,
+    "id": "c7c8fac4-4658-4eeb-a04e-6cdf8d486552",
+    "systems": {
+      "Octen-Embedding-4B": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 8,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 417,
+    "id": "bc3c9c03-0d7a-4fd3-aa19-c25c4fff9dd5",
+    "systems": {
+      "F2LLM-v2-4B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 361,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 419,
+    "id": "8ab5715e-27ee-46c6-8927-8f6e2e8b1fa5",
+    "systems": {
+      "Qwen3-Embedding-4B": 4,
+      "MoD-Embedding": 9
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 798,
+    "r_bucket": "500+",
+    "human": true
+  },
+  {
+    "event_id": 430,
+    "id": "54fa7ea2-1d3d-487d-994a-9038d17af42d",
+    "systems": {
+      "colbert-v2": 9
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 334,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 432,
+    "id": "e8fa9c40-d2f0-4438-a3eb-e0fbf1c03208",
+    "systems": {
+      "Octen-Embedding-4B": 6,
+      "jasper_en_vision_language_v1": 10
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 646,
+    "r_bucket": "500+",
+    "human": false
+  },
+  {
+    "event_id": 453,
+    "id": "cb3d4557-cdff-4486-8b7a-53790af9efd5",
+    "systems": {
+      "Jasper-Token-Compression-600M": 5,
+      "jasper_en_vision_language_v1": 2,
+      "jina-embeddings-v4-late": 1
+    },
+    "n_systems": 3,
+    "li": true,
+    "R_q": 9,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 457,
+    "id": "2d324eed-269f-4012-bdf1-8550b8a560af",
+    "systems": {
+      "F2LLM-v2-8B": 2,
+      "F2LLM-v2-14B": 1,
+      "Octen-Embedding-8B": 5,
+      "jina-embeddings-v5-text-small": 5,
+      "jasper_en_vision_language_v1": 1
+    },
+    "n_systems": 5,
+    "li": false,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 457,
+    "id": "3e47732b-e066-42ac-96d3-dcd7057d50c1",
+    "systems": {
+      "Jasper-Token-Compression-600M": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 461,
+    "id": "3a175ffd-0555-45ec-9083-2d2c98de4db0",
+    "systems": {
+      "Qwen3-Embedding-8B": 7,
+      "jina-embeddings-v5-text-small": 1,
+      "ICT-TIME-and-Querit-embedding-v1": 7
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 13,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 464,
+    "id": "9d92606d-4f43-491c-a382-431218a22357",
+    "systems": {
+      "F2LLM-v2-4B": 3,
+      "F2LLM-v2-8B": 3,
+      "F2LLM-v2-14B": 3,
+      "jina-embeddings-v5-omni-small": 4,
+      "Jasper-Token-Compression-600M": 4,
+      "jasper_en_vision_language_v1": 4,
+      "QZhou-Embedding": 4,
+      "LGAI-Embedding-Preview": 4,
+      "ICT-TIME-and-Querit-embedding-v1": 3,
+      "jina-embeddings-v4-late": 1,
+      "colbert-v2": 3
+    },
+    "n_systems": 11,
+    "li": true,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 467,
+    "id": "bd46edc2-6a28-46ad-81e0-6840842bba3d",
+    "systems": {
+      "colbert-v2": 9
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 51,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 477,
+    "id": "058a575b-5e05-476b-8b28-291b598d0b83",
+    "systems": {
+      "F2LLM-v2-8B": 9
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 46,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 493,
+    "id": "bdfbecc0-7c74-46ab-b7a9-57d942dbc913",
+    "systems": {
+      "F2LLM-v2-8B": 10,
+      "F2LLM-v2-14B": 8,
+      "Jasper-Token-Compression-600M": 8,
+      "jasper_en_vision_language_v1": 8,
+      "LGAI-Embedding-Preview": 8,
+      "ICT-TIME-and-Querit-embedding-v1": 3,
+      "jina-embeddings-v4-late": 1
+    },
+    "n_systems": 7,
+    "li": true,
+    "R_q": 36,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 493,
+    "id": "ddb4c18c-4c9a-466f-903d-779e771862c3",
+    "systems": {
+      "Octen-Embedding-4B": 9,
+      "QZhou-Embedding": 8,
+      "MoD-Embedding": 10,
+      "ICT-TIME-and-Querit-embedding-v1": 9
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 36,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 495,
+    "id": "e1077262-0b9e-43a4-9633-0111c99865c2",
+    "systems": {
+      "jina-embeddings-v5-omni-small": 9,
+      "Jasper-Token-Compression-600M": 1,
+      "ICT-TIME-and-Querit-embedding-v1": 7
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 64,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 497,
+    "id": "c95f602f-fd40-4e2c-adf1-ffb59c3ea3ad",
+    "systems": {
+      "jina-embeddings-v4-late": 10
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 405,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 502,
+    "id": "f66ed68e-3b8f-43ff-91be-926f65564218",
+    "systems": {
+      "F2LLM-v2-4B": 6,
+      "Octen-Embedding-0.6B": 2,
+      "Qwen3-Embedding-4B": 1,
+      "Qwen3-Embedding-8B": 7,
+      "jina-embeddings-v5-omni-small": 3,
+      "Jasper-Token-Compression-600M": 9,
+      "jasper_en_vision_language_v1": 7,
+      "QZhou-Embedding": 7,
+      "LGAI-Embedding-Preview": 3,
+      "MoD-Embedding": 1,
+      "ICT-TIME-and-Querit-embedding-v1": 2,
+      "colbert-v2": 1
+    },
+    "n_systems": 12,
+    "li": true,
+    "R_q": 97,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 504,
+    "id": "3494c931-f19c-4804-988f-cebf6495a976",
+    "systems": {
+      "F2LLM-v2-4B": 3,
+      "jina-embeddings-v5-text-small": 6,
+      "jina-embeddings-v5-omni-small": 2,
+      "Jasper-Token-Compression-600M": 5,
+      "QZhou-Embedding": 7,
+      "LGAI-Embedding-Preview": 4
+    },
+    "n_systems": 6,
+    "li": false,
+    "R_q": 88,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 506,
+    "id": "b366ce89-b5fa-4d98-a703-f69c5b4823a2",
+    "systems": {
+      "jina-embeddings-v5-text-small": 3
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 215,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 509,
+    "id": "c57e93f0-3f9d-4466-b28b-2a64da5b39ac",
+    "systems": {
+      "Octen-Embedding-0.6B": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 516,
+    "id": "38798af9-ae6e-4a98-9073-1f9591c60f4b",
+    "systems": {
+      "F2LLM-v2-4B": 2,
+      "F2LLM-v2-8B": 7,
+      "F2LLM-v2-14B": 6,
+      "Octen-Embedding-0.6B": 3,
+      "Octen-Embedding-4B": 6,
+      "Qwen3-Embedding-4B": 5,
+      "Qwen3-Embedding-8B": 10
+    },
+    "n_systems": 7,
+    "li": false,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 517,
+    "id": "7b12de04-4c3d-43be-976b-055d68f0d1d3",
+    "systems": {
+      "jina-embeddings-v5-text-small": 7,
+      "jina-embeddings-v4-late": 1
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 37,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 524,
+    "id": "e5bb1de3-acb3-40dc-b245-78ce6ff799c5",
+    "systems": {
+      "jina-embeddings-v5-text-small": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 234,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 532,
+    "id": "6646075a-dd30-488f-9814-7f610fec6171",
+    "systems": {
+      "F2LLM-v2-14B": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 87,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 541,
+    "id": "6919b0dd-59db-4e54-83f1-824db39e1fa1",
+    "systems": {
+      "Octen-Embedding-0.6B": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 2,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 547,
+    "id": "d674754a-ff69-48da-af97-01de277c5cb9",
+    "systems": {
+      "LGAI-Embedding-Preview": 9
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 179,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 553,
+    "id": "1e05f32f-2e57-45b9-ab26-7361142e715e",
+    "systems": {
+      "F2LLM-v2-8B": 7,
+      "F2LLM-v2-14B": 10,
+      "Qwen3-Embedding-8B": 8
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 297,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 556,
+    "id": "a6ab3ac7-cd7e-484d-a2a6-7a9251431142",
+    "systems": {
+      "MoD-Embedding": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 95,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 559,
+    "id": "39fda52c-6c11-47b5-88bd-3962dfb8eb9f",
+    "systems": {
+      "Qwen3-Embedding-8B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 74,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 559,
+    "id": "e39baff5-9594-4f41-b4cd-e423f4126c96",
+    "systems": {
+      "Octen-Embedding-4B": 8,
+      "Qwen3-Embedding-4B": 1,
+      "Qwen3-Embedding-8B": 5,
+      "MoD-Embedding": 1
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 74,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 560,
+    "id": "ab62a360-68be-4470-bf7a-48202672c9b6",
+    "systems": {
+      "F2LLM-v2-4B": 3,
+      "ICT-TIME-and-Querit-embedding-v1": 1,
+      "jina-embeddings-v4-late": 6
+    },
+    "n_systems": 3,
+    "li": true,
+    "R_q": 148,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 564,
+    "id": "3f6227f1-da74-47cd-85a5-89d804cac440",
+    "systems": {
+      "jina-embeddings-v5-text-small": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 164,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 568,
+    "id": "f3fcdb48-a3eb-4eb0-b40c-bbca597e119e",
+    "systems": {
+      "jina-embeddings-v5-text-small": 5
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 81,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 572,
+    "id": "1a21be64-9c01-4932-9a6d-c78c0c3116d8",
+    "systems": {
+      "Octen-Embedding-8B": 5,
+      "Qwen3-Embedding-8B": 10
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 2,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 572,
+    "id": "fd055fac-5f99-4a63-b5aa-8b6c48d613f4",
+    "systems": {
+      "Octen-Embedding-8B": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 2,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 580,
+    "id": "4f59b82e-3cf6-45c7-8384-7bc22cde8cde",
+    "systems": {
+      "Octen-Embedding-4B": 9,
+      "Qwen3-Embedding-4B": 8,
+      "Jasper-Token-Compression-600M": 10,
+      "jasper_en_vision_language_v1": 7,
+      "MoD-Embedding": 9,
+      "ICT-TIME-and-Querit-embedding-v1": 7
+    },
+    "n_systems": 6,
+    "li": false,
+    "R_q": 11,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 585,
+    "id": "c0f36284-a94c-4252-bf0e-87109a64e85e",
+    "systems": {
+      "Qwen3-Embedding-4B": 8,
+      "Qwen3-Embedding-8B": 7,
+      "LGAI-Embedding-Preview": 4,
+      "ICT-TIME-and-Querit-embedding-v1": 4
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 8,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 591,
+    "id": "3ff69bb2-886a-4238-9e7d-4ba11ba6c667",
+    "systems": {
+      "jina-embeddings-v5-omni-small": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 235,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 602,
+    "id": "ea94928f-01a6-432d-b7ff-e06ac9665a51",
+    "systems": {
+      "jina-embeddings-v4-late": 10
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 104,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 606,
+    "id": "fad43210-615c-411c-b44d-ce15b28313b4",
+    "systems": {
+      "F2LLM-v2-8B": 9,
+      "F2LLM-v2-14B": 10,
+      "Octen-Embedding-8B": 5,
+      "jina-embeddings-v5-text-small": 5,
+      "QZhou-Embedding": 9
+    },
+    "n_systems": 5,
+    "li": false,
+    "R_q": 27,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 608,
+    "id": "8ba71188-043a-4955-acaf-1ea739978b2a",
+    "systems": {
+      "Octen-Embedding-0.6B": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 14,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 610,
+    "id": "5cc00906-1dc3-4b73-9372-97f693e7bb49",
+    "systems": {
+      "Qwen3-Embedding-4B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 87,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 611,
+    "id": "792c9341-6c01-416c-9045-f15e18e81eb5",
+    "systems": {
+      "Octen-Embedding-0.6B": 9,
+      "jasper_en_vision_language_v1": 6
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 71,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 615,
+    "id": "cf574e1f-80d7-438d-9a43-5725035814bd",
+    "systems": {
+      "F2LLM-v2-8B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 12,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 624,
+    "id": "c7633ab8-23c2-423f-8216-c10b73242e9a",
+    "systems": {
+      "Octen-Embedding-4B": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 56,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 632,
+    "id": "227a7825-42c7-4f89-b2c7-97af2ae0b3a1",
+    "systems": {
+      "Octen-Embedding-4B": 10,
+      "Qwen3-Embedding-4B": 3,
+      "MoD-Embedding": 7
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 20,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 645,
+    "id": "643389bc-9965-4938-85f4-38a8586becd8",
+    "systems": {
+      "F2LLM-v2-4B": 6,
+      "F2LLM-v2-8B": 6,
+      "F2LLM-v2-14B": 8,
+      "Octen-Embedding-0.6B": 5,
+      "Octen-Embedding-4B": 6,
+      "Octen-Embedding-8B": 3,
+      "Qwen3-Embedding-4B": 1,
+      "Qwen3-Embedding-8B": 4,
+      "jina-embeddings-v5-omni-small": 2,
+      "Jasper-Token-Compression-600M": 9,
+      "jasper_en_vision_language_v1": 4,
+      "QZhou-Embedding": 4,
+      "MoD-Embedding": 1,
+      "ICT-TIME-and-Querit-embedding-v1": 3,
+      "colbert-v2": 1
+    },
+    "n_systems": 15,
+    "li": true,
+    "R_q": 8,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 646,
+    "id": "f06021db-6023-4ba7-9c20-8c4c374ddd31",
+    "systems": {
+      "Octen-Embedding-0.6B": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 649,
+    "id": "838c4918-c433-46bf-8051-f7efbb8fdcc8",
+    "systems": {
+      "F2LLM-v2-4B": 7,
+      "Jasper-Token-Compression-600M": 4,
+      "LGAI-Embedding-Preview": 5
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 649,
+    "id": "a5c2e5e8-87ae-4bc2-9fa8-d071101039ff",
+    "systems": {
+      "jina-embeddings-v4-late": 6
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 652,
+    "id": "e9d22cfa-f0c0-456d-bd2f-133366c67bfa",
+    "systems": {
+      "Octen-Embedding-4B": 7,
+      "Qwen3-Embedding-4B": 8,
+      "Qwen3-Embedding-8B": 4,
+      "MoD-Embedding": 5
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 655,
+    "id": "89054cae-e798-49d4-8446-87cd8ccb4385",
+    "systems": {
+      "jasper_en_vision_language_v1": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 210,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 665,
+    "id": "c4d9c80d-3e39-47ce-905f-d21f7bdc3793",
+    "systems": {
+      "F2LLM-v2-4B": 10,
+      "jina-embeddings-v5-omni-small": 10,
+      "ICT-TIME-and-Querit-embedding-v1": 6
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 17,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 667,
+    "id": "e2304cbb-6ef2-473e-8d8e-9a167e656c74",
+    "systems": {
+      "Octen-Embedding-8B": 8
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 5,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 670,
+    "id": "87c73565-27d7-4c85-bf83-87778e9d5d5a",
+    "systems": {
+      "Qwen3-Embedding-8B": 3
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 6,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 673,
+    "id": "56605183-f532-49b4-ad47-eb249562c27b",
+    "systems": {
+      "F2LLM-v2-4B": 4,
+      "F2LLM-v2-14B": 6
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 673,
+    "id": "e100892f-3f16-4b5b-90f1-23d5ece6c32f",
+    "systems": {
+      "Octen-Embedding-0.6B": 9,
+      "Octen-Embedding-8B": 7
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 675,
+    "id": "cde876c8-66b0-4147-8ab2-d8f1d9788d6c",
+    "systems": {
+      "jina-embeddings-v4-late": 1
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 2,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 682,
+    "id": "7b947118-a1da-4aca-a00d-8a3209da6d47",
+    "systems": {
+      "F2LLM-v2-4B": 9,
+      "F2LLM-v2-8B": 9,
+      "F2LLM-v2-14B": 7,
+      "Jasper-Token-Compression-600M": 6
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 145,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 686,
+    "id": "1308258f-b1fc-4179-b1bf-c384e517e2f5",
+    "systems": {
+      "Octen-Embedding-8B": 8,
+      "Qwen3-Embedding-8B": 7,
+      "LGAI-Embedding-Preview": 1,
+      "jina-embeddings-v4-late": 8
+    },
+    "n_systems": 4,
+    "li": true,
+    "R_q": 161,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 687,
+    "id": "8e882cb6-2f1d-4ea8-8942-3ed512d5dff1",
+    "systems": {
+      "Octen-Embedding-8B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 264,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 712,
+    "id": "8914f89d-cbaa-43ff-9195-a466d48f2c10",
+    "systems": {
+      "F2LLM-v2-4B": 4,
+      "F2LLM-v2-8B": 3,
+      "Octen-Embedding-4B": 3,
+      "Octen-Embedding-8B": 9,
+      "Jasper-Token-Compression-600M": 3,
+      "jasper_en_vision_language_v1": 8,
+      "QZhou-Embedding": 7,
+      "LGAI-Embedding-Preview": 5,
+      "MoD-Embedding": 5
+    },
+    "n_systems": 9,
+    "li": false,
+    "R_q": 490,
+    "r_bucket": "100-499",
+    "human": true
+  },
+  {
+    "event_id": 736,
+    "id": "04b5a25e-5f7c-45b9-ba44-914e5fc787a7",
+    "systems": {
+      "jina-embeddings-v5-text-small": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 37,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 736,
+    "id": "13406077-92ae-4233-b587-3bf843095af7",
+    "systems": {
+      "Octen-Embedding-8B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 37,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 745,
+    "id": "30293047-0bdc-42b0-aa4b-398b582dd76e",
+    "systems": {
+      "F2LLM-v2-14B": 3,
+      "QZhou-Embedding": 2
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 6,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 747,
+    "id": "473ca092-71fa-442e-8b9c-b13141afc13b",
+    "systems": {
+      "Octen-Embedding-0.6B": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 9,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 751,
+    "id": "00b14c97-d2ca-4fa9-84b7-8cb3d35fe98c",
+    "systems": {
+      "Octen-Embedding-4B": 5,
+      "Octen-Embedding-8B": 5,
+      "colbert-v2": 5
+    },
+    "n_systems": 3,
+    "li": true,
+    "R_q": 28,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 751,
+    "id": "4560b42c-b7cf-4f03-981d-405fcb656dd5",
+    "systems": {
+      "F2LLM-v2-14B": 10,
+      "Qwen3-Embedding-8B": 7,
+      "jina-embeddings-v5-omni-small": 7,
+      "Jasper-Token-Compression-600M": 10
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 28,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 752,
+    "id": "63d56f5b-b3f3-4b0a-947c-273f1bb43669",
+    "systems": {
+      "F2LLM-v2-4B": 9
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 27,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 752,
+    "id": "dd716261-3463-4a7d-b1ee-6a9edf8c3a06",
+    "systems": {
+      "F2LLM-v2-4B": 3,
+      "F2LLM-v2-8B": 4,
+      "F2LLM-v2-14B": 4,
+      "Octen-Embedding-0.6B": 3,
+      "Octen-Embedding-4B": 8,
+      "Octen-Embedding-8B": 1,
+      "Qwen3-Embedding-8B": 2,
+      "jina-embeddings-v5-omni-small": 5,
+      "Jasper-Token-Compression-600M": 4,
+      "jasper_en_vision_language_v1": 3,
+      "LGAI-Embedding-Preview": 1,
+      "MoD-Embedding": 4,
+      "ICT-TIME-and-Querit-embedding-v1": 1,
+      "jina-embeddings-v4-late": 2,
+      "colbert-v2": 6
+    },
+    "n_systems": 15,
+    "li": true,
+    "R_q": 27,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 756,
+    "id": "e2ecf153-d92f-445f-b7f0-49c42d1e9797",
+    "systems": {
+      "jina-embeddings-v5-text-small": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 20,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 763,
+    "id": "b9050405-35f4-48da-a4a4-a86c5d129754",
+    "systems": {
+      "F2LLM-v2-4B": 6,
+      "F2LLM-v2-8B": 1,
+      "F2LLM-v2-14B": 7
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 11,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 764,
+    "id": "f00868e5-e930-4556-ba46-d32134b790e0",
+    "systems": {
+      "jasper_en_vision_language_v1": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 27,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 766,
+    "id": "b5ac6edb-6083-47ef-ab4e-bccb2557af05",
+    "systems": {
+      "Jasper-Token-Compression-600M": 3,
+      "jasper_en_vision_language_v1": 8
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 109,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 771,
+    "id": "170cba51-8186-4129-b9ca-b882a1ee314b",
+    "systems": {
+      "Octen-Embedding-8B": 3,
+      "Qwen3-Embedding-8B": 5
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 6,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 775,
+    "id": "886051c0-ee63-492d-a27b-8f0d08c17035",
+    "systems": {
+      "LGAI-Embedding-Preview": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 24,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 779,
+    "id": "bdae5628-d91c-4fdd-9eb6-e8ff48058820",
+    "systems": {
+      "ICT-TIME-and-Querit-embedding-v1": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 56,
+    "r_bucket": "50-99",
+    "human": true
+  },
+  {
+    "event_id": 790,
+    "id": "26918f61-0b45-4887-9cfa-c516947b9811",
+    "systems": {
+      "F2LLM-v2-4B": 7,
+      "F2LLM-v2-8B": 1,
+      "F2LLM-v2-14B": 3,
+      "Octen-Embedding-0.6B": 2,
+      "Octen-Embedding-4B": 3,
+      "Octen-Embedding-8B": 3,
+      "Qwen3-Embedding-4B": 2,
+      "Qwen3-Embedding-8B": 2,
+      "jina-embeddings-v5-text-small": 1,
+      "jina-embeddings-v5-omni-small": 2,
+      "Jasper-Token-Compression-600M": 3,
+      "jasper_en_vision_language_v1": 2,
+      "LGAI-Embedding-Preview": 3,
+      "MoD-Embedding": 3,
+      "ICT-TIME-and-Querit-embedding-v1": 2,
+      "jina-embeddings-v4-late": 1,
+      "colbert-v2": 3
+    },
+    "n_systems": 17,
+    "li": true,
+    "R_q": 8,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 808,
+    "id": "d5fe2883-5f8d-4bd1-978a-d8458039f596",
+    "systems": {
+      "F2LLM-v2-4B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 6,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 811,
+    "id": "382668f3-d5cb-4c4c-a0cb-aa395bd10ddd",
+    "systems": {
+      "QZhou-Embedding": 4,
+      "MoD-Embedding": 2,
+      "colbert-v2": 6
+    },
+    "n_systems": 3,
+    "li": true,
+    "R_q": 37,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 817,
+    "id": "d7506e19-3a0c-4f5e-8c88-18814c029956",
+    "systems": {
+      "colbert-v2": 7
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 7,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 834,
+    "id": "72570fc9-07db-4489-afc9-7aaa68253339",
+    "systems": {
+      "ICT-TIME-and-Querit-embedding-v1": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 19,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 838,
+    "id": "1f4e40f9-db82-424e-96a1-1029b4315ddf",
+    "systems": {
+      "jina-embeddings-v5-text-small": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 839,
+    "id": "9a1b034e-f48f-42ef-a35c-bb2560cb5c56",
+    "systems": {
+      "Octen-Embedding-0.6B": 6,
+      "jina-embeddings-v5-text-small": 3
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 23,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 849,
+    "id": "ee9299d4-d8f7-4a70-83b9-306cf80bcc2c",
+    "systems": {
+      "F2LLM-v2-14B": 8,
+      "Octen-Embedding-4B": 4,
+      "Qwen3-Embedding-4B": 1,
+      "Qwen3-Embedding-8B": 1,
+      "jina-embeddings-v5-omni-small": 6,
+      "MoD-Embedding": 3,
+      "jina-embeddings-v4-late": 6
+    },
+    "n_systems": 7,
+    "li": true,
+    "R_q": 16,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 860,
+    "id": "08ebc134-7976-447f-bee5-12a16f5b544e",
+    "systems": {
+      "jina-embeddings-v5-text-small": 2
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 157,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 860,
+    "id": "89b50611-0dc2-44cc-9565-bbb86690ebfb",
+    "systems": {
+      "F2LLM-v2-14B": 1
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 157,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 868,
+    "id": "9a009899-c5eb-498e-904d-c73c1fc427cb",
+    "systems": {
+      "QZhou-Embedding": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 96,
+    "r_bucket": "50-99",
+    "human": false
+  },
+  {
+    "event_id": 877,
+    "id": "a6a76182-28ed-4db4-9eac-c32c9f297065",
+    "systems": {
+      "F2LLM-v2-8B": 7,
+      "F2LLM-v2-14B": 4,
+      "jasper_en_vision_language_v1": 8,
+      "QZhou-Embedding": 5,
+      "LGAI-Embedding-Preview": 7
+    },
+    "n_systems": 5,
+    "li": false,
+    "R_q": 9,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 882,
+    "id": "4a451684-6a09-46fd-9514-d4c0a97c6925",
+    "systems": {
+      "F2LLM-v2-4B": 1,
+      "F2LLM-v2-8B": 1,
+      "F2LLM-v2-14B": 2,
+      "Octen-Embedding-0.6B": 2,
+      "Octen-Embedding-4B": 2,
+      "Octen-Embedding-8B": 1,
+      "Qwen3-Embedding-4B": 7,
+      "Qwen3-Embedding-8B": 3,
+      "Jasper-Token-Compression-600M": 1,
+      "jasper_en_vision_language_v1": 1,
+      "QZhou-Embedding": 1,
+      "LGAI-Embedding-Preview": 2,
+      "ICT-TIME-and-Querit-embedding-v1": 3,
+      "jina-embeddings-v4-late": 8,
+      "colbert-v2": 1
+    },
+    "n_systems": 15,
+    "li": true,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 889,
+    "id": "1b79340b-40f1-4328-88fa-fa73d3e22c59",
+    "systems": {
+      "Octen-Embedding-0.6B": 9
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 21,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 892,
+    "id": "b06d3655-9240-4590-a4c2-f99a14060af3",
+    "systems": {
+      "colbert-v2": 4
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 3,
+    "r_bucket": "1-4",
+    "human": true
+  },
+  {
+    "event_id": 904,
+    "id": "faf28145-f475-4370-9285-58170c7d1f4a",
+    "systems": {
+      "ICT-TIME-and-Querit-embedding-v1": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 20,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 934,
+    "id": "aa22e531-372e-4ee7-8323-cba76756fbe0",
+    "systems": {
+      "F2LLM-v2-8B": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 123,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 938,
+    "id": "1fdc4b94-1bf5-4fd4-b92d-286039373b99",
+    "systems": {
+      "jina-embeddings-v5-text-small": 4
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 21,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 938,
+    "id": "5767f564-4f1a-44b8-b538-b53ca604ffb0",
+    "systems": {
+      "F2LLM-v2-4B": 1,
+      "F2LLM-v2-8B": 2,
+      "F2LLM-v2-14B": 1,
+      "Octen-Embedding-4B": 6,
+      "Qwen3-Embedding-8B": 2,
+      "QZhou-Embedding": 7,
+      "LGAI-Embedding-Preview": 10
+    },
+    "n_systems": 7,
+    "li": false,
+    "R_q": 21,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 942,
+    "id": "196a5c88-0954-4d3f-a1f9-ebca8838d455",
+    "systems": {
+      "F2LLM-v2-8B": 10,
+      "MoD-Embedding": 6
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 11,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 953,
+    "id": "2687dee0-42f0-433c-b8b5-bd3334aaa8cf",
+    "systems": {
+      "jina-embeddings-v5-text-small": 10,
+      "colbert-v2": 7
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 40,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 958,
+    "id": "0c280c9e-eb43-4c5e-b0f6-da9928dce8ba",
+    "systems": {
+      "QZhou-Embedding": 6
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 16,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 975,
+    "id": "78de1cda-57f9-405f-a891-a263c3aa2c34",
+    "systems": {
+      "Octen-Embedding-4B": 7,
+      "Qwen3-Embedding-4B": 3,
+      "jina-embeddings-v5-omni-small": 9,
+      "MoD-Embedding": 6
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 12,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 978,
+    "id": "84ff26e4-d3a3-4900-919f-3f639f6621f3",
+    "systems": {
+      "Qwen3-Embedding-4B": 5,
+      "jina-embeddings-v5-text-small": 7,
+      "MoD-Embedding": 6
+    },
+    "n_systems": 3,
+    "li": false,
+    "R_q": 6,
+    "r_bucket": "5-9",
+    "human": true
+  },
+  {
+    "event_id": 989,
+    "id": "80c10ab1-78bc-4197-a97f-54a0ca2bc6ce",
+    "systems": {
+      "F2LLM-v2-14B": 2
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 4,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 1004,
+    "id": "2123a603-2de9-4126-8df8-ed77ac092127",
+    "systems": {
+      "Qwen3-Embedding-4B": 7,
+      "Qwen3-Embedding-8B": 8,
+      "jina-embeddings-v5-text-small": 9,
+      "jina-embeddings-v5-omni-small": 9,
+      "jasper_en_vision_language_v1": 8,
+      "MoD-Embedding": 10,
+      "ICT-TIME-and-Querit-embedding-v1": 2,
+      "jina-embeddings-v4-late": 3,
+      "colbert-v2": 5
+    },
+    "n_systems": 9,
+    "li": true,
+    "R_q": 29,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 1007,
+    "id": "896e4ddc-0376-47b8-a1e0-f614ed19488f",
+    "systems": {
+      "F2LLM-v2-8B": 8,
+      "ICT-TIME-and-Querit-embedding-v1": 8
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 27,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 1011,
+    "id": "55b604cf-c1f9-4891-a599-018472aff6c2",
+    "systems": {
+      "F2LLM-v2-8B": 10,
+      "F2LLM-v2-14B": 9,
+      "LGAI-Embedding-Preview": 10,
+      "ICT-TIME-and-Querit-embedding-v1": 10
+    },
+    "n_systems": 4,
+    "li": false,
+    "R_q": 5,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 1019,
+    "id": "7c12737b-445d-4bec-adf6-fa502b0f9806",
+    "systems": {
+      "Qwen3-Embedding-4B": 7,
+      "Qwen3-Embedding-8B": 8
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 17,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 1021,
+    "id": "9e9c350e-26b6-4c16-aaf7-cae1ff03f712",
+    "systems": {
+      "colbert-v2": 8
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 10,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 1023,
+    "id": "5140973e-7071-4f22-9dac-4a83a15dacf8",
+    "systems": {
+      "Octen-Embedding-8B": 5
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 24,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 1030,
+    "id": "e32318c2-d124-4ebc-9ba2-be4df8f69424",
+    "systems": {
+      "jina-embeddings-v4-late": 1,
+      "colbert-v2": 5
+    },
+    "n_systems": 2,
+    "li": true,
+    "R_q": 1,
+    "r_bucket": "1-4",
+    "human": false
+  },
+  {
+    "event_id": 1049,
+    "id": "e7abfe30-8153-4d46-8f75-b47f4dd0eaf2",
+    "systems": {
+      "jina-embeddings-v4-late": 6
+    },
+    "n_systems": 1,
+    "li": true,
+    "R_q": 9,
+    "r_bucket": "5-9",
+    "human": false
+  },
+  {
+    "event_id": 1058,
+    "id": "2460b181-2ad0-4aa4-b68a-05d1d59b206c",
+    "systems": {
+      "Qwen3-Embedding-8B": 10,
+      "QZhou-Embedding": 5,
+      "jina-embeddings-v4-late": 5,
+      "colbert-v2": 1
+    },
+    "n_systems": 4,
+    "li": true,
+    "R_q": 344,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 1059,
+    "id": "0bdcaf8a-7477-4638-b6c2-12563d420ca4",
+    "systems": {
+      "F2LLM-v2-4B": 2,
+      "F2LLM-v2-8B": 9,
+      "F2LLM-v2-14B": 1,
+      "jina-embeddings-v5-omni-small": 10,
+      "jasper_en_vision_language_v1": 6,
+      "QZhou-Embedding": 10
+    },
+    "n_systems": 6,
+    "li": false,
+    "R_q": 1587,
+    "r_bucket": "500+",
+    "human": false
+  },
+  {
+    "event_id": 1062,
+    "id": "03e3af94-4682-4c68-ac08-34ecfb1cbf9a",
+    "systems": {
+      "F2LLM-v2-4B": 10
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 15,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 1064,
+    "id": "a169cd74-5b66-4178-9ba3-645792fb1aa0",
+    "systems": {
+      "Qwen3-Embedding-4B": 6,
+      "MoD-Embedding": 10
+    },
+    "n_systems": 2,
+    "li": false,
+    "R_q": 491,
+    "r_bucket": "100-499",
+    "human": false
+  },
+  {
+    "event_id": 1068,
+    "id": "d0a2f005-27d2-4546-ab58-d4d99785bebc",
+    "systems": {
+      "F2LLM-v2-4B": 6,
+      "F2LLM-v2-8B": 5,
+      "F2LLM-v2-14B": 8,
+      "jasper_en_vision_language_v1": 7,
+      "LGAI-Embedding-Preview": 3
+    },
+    "n_systems": 5,
+    "li": false,
+    "R_q": 19,
+    "r_bucket": "10-49",
+    "human": true
+  },
+  {
+    "event_id": 1083,
+    "id": "ab9da7c8-62c2-4fc6-8b82-6471bf4e7168",
+    "systems": {
+      "jina-embeddings-v5-text-small": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 32,
+    "r_bucket": "10-49",
+    "human": false
+  },
+  {
+    "event_id": 1089,
+    "id": "620adae8-d563-46f5-86f0-23eb5aee4055",
+    "systems": {
+      "F2LLM-v2-8B": 7
+    },
+    "n_systems": 1,
+    "li": false,
+    "R_q": 214,
+    "r_bucket": "100-499",
+    "human": true
+  }
+]

@@ -1,0 +1,13 @@
+{"id": "0d5843a9-5666-42b2-b18d-5d22b07036e2", "event_id": 698, "instance_present": false, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "371b7660-f381-4507-a6fb-559b83070d0a", "event_id": 698, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "55f2706b-8894-4aca-a4b6-d2274b3d4606", "event_id": 698, "instance_present": false, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "78418ed1-53f2-426b-b163-717bb490deb1", "event_id": 698, "instance_present": false, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "89a6bad4-fe24-4512-a495-647fbc7c2657", "event_id": 698, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "985261e1-413f-483a-b0b7-c54059915a60", "event_id": 698, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "a3804941-806b-40de-a25a-a4f1dfc494c4", "event_id": 698, "instance_present": true, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "aa50603f-2920-47aa-8611-a33c74f2c69b", "event_id": 698, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "be6abe2f-eeda-4d7f-9a37-e16c1c0e7d85", "event_id": 698, "instance_present": false, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "d224c7eb-746f-4815-a994-f0bb04783add", "event_id": 698, "instance_present": false, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "e507dde3-4952-44ae-b4a1-b7a8cfce7e89", "event_id": 698, "instance_present": false, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "f6b7dcd4-b72f-4784-8bfc-4d26e4586c41", "event_id": 698, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "f9250c67-1249-4df8-beff-d2522b5d64c2", "event_id": 698, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}

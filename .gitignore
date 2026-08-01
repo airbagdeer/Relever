@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+*.egg-info/
+.pytest_cache/
+.DS_Store
+
+# Your own retrieval runs & regenerable working data (see README "Evaluating your
+# own retrieval system") — keep large generated artifacts out of the repo.
+data/candidates/
+data/splade_wikipedia_v2*/
+lancedb_data/
+logs/
+
+# Secrets
+.env
+.env.*

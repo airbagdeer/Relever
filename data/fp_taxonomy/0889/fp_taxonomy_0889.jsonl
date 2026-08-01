@@ -1,0 +1,12 @@
+{"id": "1b79340b-40f1-4328-88fa-fa73d3e22c59", "event_id": 889, "instance_present": true, "relation_present": false, "constant_present": false, "prompt_version": "v3"}
+{"id": "13bdf135-0d1f-4470-9275-2abd9745555d", "event_id": 889, "instance_present": true, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "66e3a2bd-5ccc-43e5-bb64-79b697ac0028", "event_id": 889, "instance_present": false, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "6761bf6f-81cd-4d73-899b-0b99b5f9fdfb", "event_id": 889, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "6f861adb-bfb2-4daa-9f5b-d0d4c0c23e72", "event_id": 889, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "732c13fd-4428-4057-84bb-faaa76438aee", "event_id": 889, "instance_present": true, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "9dac8a78-2471-4f82-92b1-b129df2c45ec", "event_id": 889, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "bf5109e9-d0e6-4f58-81c7-01d9a52b1f95", "event_id": 889, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "d7fb15fc-1901-4922-b78a-59a795e28154", "event_id": 889, "instance_present": true, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "e0b45e40-0e97-4e9f-bfcd-87140beb22e6", "event_id": 889, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "eea1c75e-6734-4a64-9029-c628a0fb2138", "event_id": 889, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "f8f06100-299f-45d9-aecc-0b56aee5fed9", "event_id": 889, "instance_present": true, "relation_present": false, "constant_present": true, "prompt_version": "v5"}

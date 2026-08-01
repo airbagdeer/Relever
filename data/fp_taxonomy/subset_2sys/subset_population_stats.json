@@ -1,0 +1,37 @@
+{
+  "mode": "topk_negatives",
+  "top_k": 10,
+  "systems": [
+    "colbert-v2",
+    "ICT-TIME-and-Querit-embedding-v1"
+  ],
+  "n_systems": 2,
+  "n_queries_evaluated": 1029,
+  "n_slots_examined": 36948,
+  "n_positive": 16368,
+  "n_negative": 20580,
+  "n_unlabeled": 0,
+  "n_failed": 0,
+  "n_unique_fp_pairs": 17310,
+  "dedup_ratio": 1.189,
+  "per_system_negatives": {
+    "ICT-TIME-and-Querit-embedding-v1": 10290,
+    "colbert-v2": 10290
+  },
+  "pairs_by_li": {
+    "li": 10290,
+    "dense_only": 7020
+  },
+  "pairs_by_r_bucket": {
+    "1-4": 2095,
+    "10-49": 4793,
+    "100-499": 5021,
+    "5-9": 1478,
+    "50-99": 2844,
+    "500+": 1079
+  },
+  "n_systems_dist": {
+    "1": 14040,
+    "2": 3270
+  }
+}

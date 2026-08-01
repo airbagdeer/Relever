@@ -1,0 +1,17 @@
+{"id": "0eb59f78-a86d-40b8-8a5e-b3ba4e498a88", "event_id": 784, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "133a3d98-ef11-43f1-b443-36f623f0432d", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "1af8b3e1-e766-4e84-b956-099fe0934737", "event_id": 784, "instance_present": true, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "2444d824-c21f-4350-9ad7-de53ac0f4af0", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "2523b2d1-c68e-485c-aacf-291c8c519bc7", "event_id": 784, "instance_present": false, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "44808f9c-b344-4223-b296-91b052c2bb8c", "event_id": 784, "instance_present": false, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "5d4a062c-e6eb-443d-9edd-e41bbaf353f6", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "792d40f7-db4c-4dcc-8307-ff36797d8b82", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "7b21f1f6-373d-4dd5-804b-dcc7a313759c", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "87c5690c-8f44-448e-a125-217790422007", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "90dc6615-22e0-4689-b552-23be6cf84e4b", "event_id": 784, "instance_present": true, "relation_present": false, "constant_present": false, "prompt_version": "v5"}
+{"id": "bd7ce1d0-6a51-43c9-bdc4-33e21d2fdd0c", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": true, "prompt_version": "v5"}
+{"id": "c7c85cad-2476-4fe4-a7ab-339b7da54d84", "event_id": 784, "instance_present": false, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "c8c956fb-e49b-4687-a302-405c1f9b6875", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "cd16fabe-3239-48d9-81f0-3da22cf409c3", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}
+{"id": "d16c82dd-a550-4a6f-b90b-5728540e0dd2", "event_id": 784, "instance_present": true, "relation_present": false, "constant_present": true, "prompt_version": "v5"}
+{"id": "da3bab1b-44d3-4275-bab8-0cd66e00aac6", "event_id": 784, "instance_present": true, "relation_present": true, "constant_present": false, "prompt_version": "v5"}

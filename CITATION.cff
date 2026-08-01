@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use RELEVER, please cite the accompanying paper."
+title: "RELEVER: a benchmark for relation evidence retrieval"
+# NOTE (pre-publication): author list and paper reference are withheld for
+# anonymous review. Replace with the camera-ready citation upon publication.
+authors:
+  - name: "Anonymous"
+type: dataset
+license: MIT

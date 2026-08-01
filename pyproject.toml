@@ -1,0 +1,51 @@
+[project]
+name = "relever"
+version = "1.0.0"
+description = "RELEVER: benchmark construction, labeling, and evaluation code for relation evidence retrieval"
+requires-python = "==3.12.7"
+dependencies = [
+    "accelerate>=1.12.0",
+    "anthropic>=0.77.0",
+    "dotenv>=0.9.9",
+    "einops>=0.8.1",
+    "fastembed>=0.7.4",
+    "lancedb>=0.29.2",
+    "langchain-core>=1.0.5",
+    "langchain-openai>=1.0.3",
+    "matplotlib>=3.10.7",
+    "notebook>=7.4.7",
+    "openai>=2.8.1",
+    "pandas>=2.3.3",
+    "peft>=0.18.0",
+    "pyarrow>=23.0.1",
+    "pylance>=2.0.1",
+    "qdrant-client>=1.16.2",
+    "bm25s>=0.2.13",
+    "sentence-transformers>=5.1.2",
+    "tabulate>=0.9.0",
+    "torchvision>=0.24.1",
+    "tqdm>=4.67.1",
+    "transformers>=5.5.1",
+]
+
+[project.optional-dependencies]
+vllm = [
+    "vllm>=0.19.1",
+    "ray"
+]
+# Note: pylate (ColBERTv2 encoder) is intentionally NOT a project dep — pylate
+# 1.4.0 caps transformers at <=4.56.2, which conflicts with the project's main
+# transformers>=4.57.3 pin and breaks `uv sync` even when expressed as an
+# optional extra. Install pylate into a dedicated venv on the cluster:
+#     uv venv .venv-colbert --python 3.12.7
+#     uv pip install --python .venv-colbert/bin/python \
+#         pylate>=1.4.0 lancedb>=0.29.2 pyarrow>=23.0.1 tqdm numpy torch
+# The ColBERT lane of frontier-v2 (`index_colbert.py`) uses .venv-colbert; the
+# dense lane keeps the main venv (transformers >= 4.57.3).
+
+[dependency-groups]
+dev = [
+    "ipywidgets>=8.1.8",
+    "pymupdf>=1.26.7",
+    "pytest>=8.3.0",
+]
