@@ -1,5 +1,8 @@
 # RELEVER — code
 
+*This is a temporary repository created for anonymous submission; upon acceptance the
+release will migrate to a permanent, non-anonymous public repository.*
+
 Benchmark-construction, labeling, and evaluation code for **RELEVER**, a 1,100-query
 benchmark for **relation evidence retrieval**: given a query that decomposes into an
 abstract entity type *T*, a constant (anchor) entity *e*, and an exact relation *r*,
