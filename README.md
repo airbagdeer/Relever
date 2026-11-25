@@ -19,7 +19,7 @@ at [deer2222/RELEVER](https://huggingface.co/datasets/deer2222/RELEVER), loadabl
 Requires Python **3.12.7** (exact pin) and [uv](https://github.com/astral-sh/uv).
 
 ```bash
-git clone <this repository> && cd relever
+git clone https://github.com/airbagdeer/Relever.git && cd Relever
 uv sync
 ```
 
