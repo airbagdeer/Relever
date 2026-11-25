@@ -1,9 +1,27 @@
 cff-version: 1.2.0
 message: "If you use RELEVER, please cite the accompanying paper."
 title: "RELEVER: a benchmark for relation evidence retrieval"
-# NOTE (pre-publication): author list and paper reference are withheld for
-# anonymous review. Replace with the camera-ready citation upon publication.
 authors:
-  - name: "Anonymous"
+  - given-names: Eyal
+    family-names: Stolov
+    affiliation: Bar-Ilan University
+  - given-names: Yoav
+    family-names: Goldberg
+    affiliation: Bar-Ilan University
+  - given-names: Oren
+    family-names: Glickman
+    affiliation: Bar-Ilan University
 type: dataset
 license: MIT
+repository-code: "https://github.com/airbagdeer/Relever"
+url: "https://huggingface.co/datasets/deer2222/RELEVER"
+preferred-citation:
+  type: article
+  title: "Similar but Not Asserted: RELEVER, a Benchmark for Relation Evidence Retrieval"
+  authors:
+    - given-names: Eyal
+      family-names: Stolov
+    - given-names: Yoav
+      family-names: Goldberg
+    - given-names: Oren
+      family-names: Glickman
