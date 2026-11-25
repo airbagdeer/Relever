@@ -13,6 +13,10 @@ This repository contains the **entire release**: the benchmark data (queries, co
 relevance labels), the per-query result tables behind the paper's numbers, and the
 construction + evaluation code.
 
+The benchmark data (queries, corpus, relevance labels) is also available on Hugging Face
+at [deer2222/RELEVER](https://huggingface.co/datasets/deer2222/RELEVER), loadable with
+`datasets.load_dataset("deer2222/RELEVER", "<queries|corpus|qrels>")`.
+
 ## Setup
 
 Requires Python **3.12.7** (exact pin) and [uv](https://github.com/astral-sh/uv).

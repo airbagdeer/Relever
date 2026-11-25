@@ -19,6 +19,10 @@ This directory is the data component of the RELEVER repository (code and data sh
 together); see the repository root `README.md` for setup, evaluation instructions,
 and how each paper table regenerates.
 
+The queries, corpus, and relevance labels are also available on Hugging Face at
+[deer2222/RELEVER](https://huggingface.co/datasets/deer2222/RELEVER) (parquet; configs
+`queries`, `corpus`, `qrels`).
+
 ## Contents
 
 | Path | What it is |
